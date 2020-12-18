@@ -98,6 +98,7 @@ function createRow(data){
 $(document).on("click", "tbody tr", function() {
     //console.log(this.id);
     getPersonDetail(this.id);
+    document.getElementById("info-content").style.display = "block";
     $(this)
       .addClass("active")
       .siblings()
