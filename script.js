@@ -261,6 +261,7 @@ let myPromise = new Promise(function(myResolve, myReject) {
     document.getElementById("fetchZip").innerHTML = zip;
 
 
+        
 }
   
 
